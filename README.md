@@ -19,7 +19,7 @@ up in C programming, use basic algorithms, do some information research, and so 
 
 - Clone this repo;
 - CD into it;
--`make minilibx` to download minilibx;
+- run `make minilibx` to download minilibx;
 - run `make`;
 - run the executable followed by a valid .ber map, for example:
 - `./so_long maps/example.ber`
