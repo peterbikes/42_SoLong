@@ -20,7 +20,7 @@ up in C programming, use basic algorithms, do some information research, and so 
 - Clone this repo;
 - CD into it;
 -`make minilibx` to download minilibx;
-- `make`;
+- run `make`;
 - run the executable followed by a valid .ber map, for example:
 - `./so_long maps/example.ber`
 - Get Ziva to eat her burgers using WASD, and get her to the exit afterwards.
