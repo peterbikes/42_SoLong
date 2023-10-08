@@ -25,9 +25,7 @@ up in C programming, use basic algorithms, do some information research, and so 
 - `./so_long maps/example.ber`
 - Get Ziva to eat her burgers using WASD, and get her to the exit afterwards.
 
-Here is a preview of my game:
-
-![so_long](https://github.com/peterbikes/42-School-Common-Core/blob/main/02_so_long/extra/so_long.png)
+<img src="./extra/so_long.gif"/>
 
 If you are currently working on this project, I would recommend the following tools:
 
