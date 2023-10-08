@@ -6,7 +6,7 @@
 /*   By: psotto-m <psotto-m@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/29 15:29:11 by psotto-m          #+#    #+#             */
-/*   Updated: 2023/04/18 12:12:08 by psotto-m         ###   ########.fr       */
+/*   Updated: 2023/10/08 15:58:39 by psotto-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,8 +25,8 @@ void	find_player(char **map, int height, t_game *so_long)
 		{
 			if (map[k][i] == 'P')
 			{
-			so_long->player_location_length = i;
-			so_long->player_location_height = k;
+				so_long->player_location_length = i;
+				so_long->player_location_height = k;
 				break ;
 			}
 			i++;

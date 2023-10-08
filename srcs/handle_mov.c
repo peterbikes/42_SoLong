@@ -6,7 +6,7 @@
 /*   By: psotto-m <psotto-m@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/15 16:38:13 by psotto-m          #+#    #+#             */
-/*   Updated: 2023/04/18 12:12:47 by psotto-m         ###   ########.fr       */
+/*   Updated: 2023/10/08 15:57:53 by psotto-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,7 +55,7 @@ int	handle_left_mov(t_game *so_long, int exit)
 }
 
 int	handle_down_mov(t_game *so_long, int exit)
-{	
+{
 	if (so_long->map[so_long->player_location_height - 1] \
 	[so_long->player_location_length] == '1')
 		return (0);

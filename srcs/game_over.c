@@ -6,7 +6,7 @@
 /*   By: psotto-m <psotto-m@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/14 18:27:44 by psotto-m          #+#    #+#             */
-/*   Updated: 2023/04/18 12:12:34 by psotto-m         ###   ########.fr       */
+/*   Updated: 2023/10/08 15:58:09 by psotto-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ void	free_map(t_game *so_long)
 }
 
 int	game_over(t_game *so_long)
-{	
+{
 	if (!so_long)
 		return (0);
 	if (so_long->exit)
